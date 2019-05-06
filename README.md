@@ -19,3 +19,8 @@ Usage
 1. Edit the Setup Variables and Main Methods in RunMe.ps1 before running to adequately generate the right urls and nested folders. This includes but is not limited to the Endpoints and the potential actions that can be performed on those endpoints. 
 2. Open RunMe.ps1 in Powershell ISE, highlight all, and "Run Selection"
 3. Bookmark HTML will be generated and ready to import into your browser
+
+Example Picture
+--------
+
+![Example Picture](examplePicture.png)
