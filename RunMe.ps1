@@ -3,9 +3,8 @@
 #######################################################
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
-$CurrentWorkingDirectory = ""; if($psISE) { $CurrentWorkingDirectory = Split-Path -Path $psISE.CurrentFile.FullPath; } else { $CurrentWorkingDirectory = $global:PSScriptRoot; }
-. $CurrentWorkingDirectory\Environments.ps1
-. $CurrentWorkingDirectory\ApiBookmarkGenerationTool.ps1
+. .\Environments.ps1
+. .\ApiBookmarkGenerationTool.ps1
 
 #######################################################
 ######             Setup Variables               ######
